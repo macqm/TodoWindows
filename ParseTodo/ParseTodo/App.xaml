@@ -6,14 +6,7 @@
 
     <Application.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
 
-                <!-- 
-                    Styles that define common aspects of the platform look and feel
-                    Required by Visual Studio project and item templates
-                 -->
-                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
         	<Style x:Key="ListViewStyle" TargetType="ListViewItem">
         		<Setter Property="HorizontalAlignment" Value="Stretch" />
         		<Setter Property="HorizontalContentAlignment" Value="Stretch" />
